@@ -135,3 +135,7 @@ body{
     font-weight: 300;
 }
 
+.card .details .group h2 small{
+    font-size: 0.75em ;
+}
+
