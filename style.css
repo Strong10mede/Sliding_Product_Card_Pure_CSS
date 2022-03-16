@@ -125,3 +125,9 @@ body{
     margin-top: 20px;
 }
 
+.card .details .group h2{
+    font-weight: 600;
+    font-size: 2em;
+    color: #fff;
+}
+
