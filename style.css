@@ -21,6 +21,7 @@ body{
     background: #000;
     box-shadow: 0 15px 40px rgba(0,0,0,0.1);
     display: flex;
+    overflow: hidden;
 }
 
 .card .imgBx{
@@ -39,7 +40,7 @@ body{
 }
 
 .card:hover .imgBx img{
-    transform: rotate(-35deg) translateX(-10px);
+    transform: rotate(-35deg) translateX(-20px);
 }
 
 .card .details{
