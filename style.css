@@ -61,6 +61,11 @@ body{
     justify-content: center; 
     /* align-items: center; */
     padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover .details{
+    left: 300px;
 }
 
 .card .details::before{
