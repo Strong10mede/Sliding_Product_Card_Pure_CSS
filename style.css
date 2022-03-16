@@ -117,7 +117,7 @@ body{
     opacity: 1;
 }
 
-.card .card .group{
+.card .details .group{
     position: relative;
     display: flex;
     justify-content: space-around;
