@@ -50,13 +50,13 @@ body{
 }
 
 .card .details{
-    position: inherit;
-    width: 300px;
+    position: absolute;
+    min-width: 300px;
     height: 100%;
     background: #4ba9e9;
     display: flex;
     flex-direction: column;
-     justify-content: center; 
+    justify-content: center; 
     /* align-items: center; */
     padding: 20px;
 }
