@@ -81,6 +81,12 @@ body{
 }
 
 .card .details h4{
-
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1em;
 }
 
