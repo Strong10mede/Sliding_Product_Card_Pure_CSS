@@ -26,4 +26,6 @@ body{
     height: 380px;
     background: #fff;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
