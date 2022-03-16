@@ -37,12 +37,26 @@ body{
 }
 
 .card:hover .imgBx img{
-    transform: rotate(-35deg) translateX(-20px);
+    transform: rotate(-35deg) translateX(-10px);
 }
 
 .card .details{
     position: inherit;
     width: 300px;
     height: 100%;
-    background: #4ba9e9; 
+    background: #4ba9e9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .details::before{
+    content: '';
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
 }
