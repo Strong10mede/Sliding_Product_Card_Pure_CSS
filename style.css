@@ -131,3 +131,7 @@ body{
     color: #fff;
 }
 
+.card .details .group h2 sup{
+    font-weight: 300;
+}
+
