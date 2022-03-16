@@ -46,8 +46,9 @@ body{
     height: 100%;
     background: #4ba9e9;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    padding: 20px;
 }
 
 .card .details::before{
@@ -60,3 +61,4 @@ body{
     border-bottom: 10px solid transparent;
     border-left: 10px solid #fff;
 }
+
