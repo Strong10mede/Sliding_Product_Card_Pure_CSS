@@ -90,3 +90,38 @@ body{
     line-height: 1em;
 }
 
+.card .details .size{
+    display: flex;
+    gap: 10px;
+}
+
+.card .details .size li{
+    list-style: none;
+    color: #fff;
+    font-size: 0.9em;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.card .details .size li:hover{
+    background: #fff;
+    color: #4ba9e9;
+    opacity: 1;
+}
+
+.card .card .group{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
