@@ -139,3 +139,14 @@ body{
     font-size: 0.75em ;
 }
 
+.card .details .group a{
+    display: inline-flex;
+    padding: 10px 25px;
+    background: #fff;
+    color: #4ba9e9;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 0.25em;
+}
+
